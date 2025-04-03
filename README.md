@@ -29,6 +29,9 @@ chmod +x clean_cache.sh
 ```
 
 > [!WARNING]
-> This script will delete cache and temporary files only.
+> This script will delete the cache and temporary files only.
 > No application or system files will be affected.
-> However, some apps may rebuild cache when reopened, which might slow down the first launch.
+> However, some apps may rebuild the cache when reopened, slowing down the first launch.
+
+# License
+This open-source project is licensed under the MIT [License](LICENSE).
