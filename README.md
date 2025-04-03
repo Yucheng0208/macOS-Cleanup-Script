@@ -7,8 +7,8 @@ Keep your Mac clean and efficient with one command.
 - Clean system cache
 - Remove application logs
 - Clear Xcode DerivedData (if exists)
-- Clean browser caches (Chrome, Brave, Edge, Safari)
-- Empty trash bin
+- Clean browser caches (Chrome, Brave, Edge, and Safari)
+- Empty the trash bin
 - Clear QuickLook thumbnail cache
 
 ## 📄 Usage
@@ -34,4 +34,4 @@ chmod +x clean_cache.sh
 > However, some apps may rebuild the cache when reopened, slowing down the first launch.
 
 # License
-This open-source project is licensed under the MIT [License](LICENSE).
+This open-source project is licensed under the [MIT License](LICENSE).
