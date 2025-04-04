@@ -28,7 +28,11 @@ if [[ "$OS_TYPE" == "Darwin" ]]; then
     rm -rf ~/Library/Caches/BraveSoftware/Brave-Browser/*
     rm -rf ~/Library/Caches/Microsoft\ Edge/*
     rm -rf ~/Library/Caches/com.apple.Safari/*
+    
+    # Find the ".DS_Store" and delete these files.
+    find ~/ -name '.DS_Store' -type f -delete
 
+    
     echo "macOS 清除完成！"
 
 elif [[ "$OS_TYPE" == "Linux" ]]; then
